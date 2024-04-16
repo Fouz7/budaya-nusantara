@@ -1,4 +1,4 @@
-[
+const gallery = [
     {
         "id": 1,
         "province": "DKI Jakarta"
@@ -56,3 +56,5 @@
         "province": "Papua Barat"
     }
 ]
+
+export default gallery;
