@@ -1,3 +1,4 @@
+import Galery from './Pages/Galery'
 import Landing from './Pages/Landing'
 
 function App() {
@@ -5,6 +6,7 @@ function App() {
   return (
     <>
       <Landing />
+      <Galery/>
     </>
   )
 }
