@@ -1,9 +1,15 @@
 import React from 'react';
+import{
+    Card,
+    CardBody,
+    Typography
+} from "@material-tailwind/react"
+
 
 const GaleryPlaces = [
-  { label: 'Bali', image: 'bali.jpg' },
-  { label: 'Jakarta', image: 'jakarta.jpg' },
-  { label: 'Bandung', image: 'bandung.jpg' },
+  { label: 'Dki jakarta', image: 'Jakarta.jpg' },
+  { label: 'Aceh', image: 'Aceh.jpg' },
+  { label: 'Jawa Barat', image: 'Jawa barat.jpg' },
   { label: 'Yogyakarta', image: 'yogyakarta.jpg' },
   { label: 'Surabaya', image: 'surabaya.jpg' },
   { label: 'Medan', image: 'medan.jpg' },
@@ -17,17 +23,16 @@ const Galery = () => {
   return (
     <div className="grid grid-cols-4 gap-4">
       {GaleryPlaces.map((place, index) => (
-        <div
-          key={index}
-          className="bg-white rounded-lg shadow-md p-4 flex flex-col items-center justify-center m-2"
-        >
-          <img
-            src={place.image}
-            alt={place.label}
-            className="w-20 h-20 object-cover rounded-full mb-4"
-          />
-          <p className="text-lg font-semibold">{place.label}</p>
-        </div>
+        <Card key={index}  className="w-272 h-272">
+        
+        <CardBody className="flex flex-col gap-4">
+                <img src={place.image} alt="" className="object-cover w-full h-full" />
+            <Typography variant='p' color='black'>
+                {place.label}
+            </Typography>
+        </CardBody>
+       
+    </Card>
       ))}
     </div>
   );
