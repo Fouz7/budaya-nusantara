@@ -1,13 +1,12 @@
-import Galery from './Pages/Galery'
-import Landing from './Pages/Landing'
+import { BrowserRouter as Router } from 'react-router-dom'
+import AppRouter from './Router'
 
 function App() {
 
   return (
-    <>
-      <Landing />
-      <Galery/>
-    </>
+    <Router>
+      <AppRouter/>
+    </Router>
   )
 }
 

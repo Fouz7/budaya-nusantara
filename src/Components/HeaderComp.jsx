@@ -1,4 +1,5 @@
-import React, { useState } from "react";
+import React, { useState } from "react"; 
+import { useNavigate } from "react-router-dom";
 import {
     Navbar,
     Typography,
@@ -8,6 +9,7 @@ import {
 
 function HeaderComp() {
     const [openNav, setOpenNav] = useState(false);
+    const navigate = useNavigate();
 
     React.useEffect(() => {
         window.addEventListener(
@@ -24,7 +26,7 @@ function HeaderComp() {
                 color="blue-gray"
                 className="p-1 font-normal text-right md:text-left"
             >
-                <a href="#" className="flex items-center">
+                <a className="flex items-center" onClick={() => navigate('/galery')}>
                     Galery
                 </a>
             </Typography>

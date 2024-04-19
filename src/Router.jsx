@@ -1,18 +1,17 @@
-import React from 'react';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import Landing from './Pages/Landing';
+import { Route, Routes } from "react-router-dom";
+import Landing from "./Pages/Landing";
+import Galery from "./Pages/Galery";
 
 
 function AppRouter() {
-    return (
-        <Router>
-            <Switch>
-                <Route path="/">
-                   <Landing />
-                </Route>
-            </Switch>
-        </Router>
-    );
+
+  return (
+    <Routes>
+      <Route path="/" element={<Landing/>}/>
+      <Route path="/galery" element={<Galery/>}/>
+    </Routes> 
+
+  )
 }
 
-export default AppRouter;
+export default AppRouter
