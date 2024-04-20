@@ -1,6 +1,9 @@
-[
+import baliImg from '../assets/bali.png';
+
+const galery = [
     {
         "id": 1,
+        "galeryImg": baliImg,
         "province": "DKI Jakarta",
         "sejarahText1":"Kota Jakarta memiliki sejarah yang panjang dan beragam.",
         "sejarahText2":"Sunda Kelapa (397-1527): Jakarta pertama kali dikenal sebagai salah satu pelabuhan Kerajaan Sunda yang bernama Sunda Kalapa, berlokasi di muara Sungai Ciliwung. Pada masa kekuasaan Kerajaan Tarumanegara, wilayah ini dikenal dengan nama Sunda Kelapa dan menjadi pusat perdagangan.",
@@ -10,6 +13,7 @@
     },
     {
         "id": 2,
+        "galeryImg": "baliImg",
         "province": "Aceh",
         "sejarahText1": "Aceh, yang dulu dikenal sebagai Aceh Darussalam (1511-1945), memiliki sejarah yang dimulai dari masa kejayaan kerajaan Aceh Darussalam yang berdiri pada abad ke-16",
         "sejarahText2":"Aceh merupakan tempat awal masuknya ajaran Islam di Indonesia, dengan Kerajaan Samudera Pasai sebagai kerajaan Islam pertama di Indonesia yang berdiri pada pertengahan abad ke-12",
@@ -22,6 +26,7 @@
     },
     {
         "id": 3,
+        "galeryImg": "baliImg",
         "province": "Jawa Barat",
         "sejarahText1":"",
         "sejarahText2":"",
@@ -33,6 +38,7 @@
     },
     {
         "id": 4,
+        "galeryImg": "baliImg",
         "province": "Jawa Tengah",
         "sejarahText1":"",
         "sejarahText2":"",
@@ -44,14 +50,17 @@
     },
     {
         "id": 5,
+        "galeryImg": "baliImg",
         "province": "Jawa Timur"
     },
     {
         "id": 6,
+        "galeryImg": "baliImg",
         "province": "DI Jogjakarta"
     },
     {
         "id": 7,
+        "galeryImg": "baliImg",
         "province": "Bali",
         "sejarahText1":"Bali, yang dikenal sebagai Pulau Dewata, memiliki sejarah yang kaya dan beragam. Pulau ini terbentuk dari aktivitas vulkanik dan merupakan bagian dari kepulauan Indonesia. Sejarah Bali dimulai dari masa prasejarah, ketika pulau ini masih terhubung dengan pulau Jawa sebagai bagian dari paparan Sunda.",
         "sejarahText2":"Pada masa Paleolitik dan Mesolitik, Bali dihuni oleh bangsa Austronesia yang bermigrasi dari Taiwan melalui Asia Tenggara Maritim. Alat-alat batu dari zaman tersebut telah ditemukan di dekat desa Cekik di Bali Barat.",
@@ -64,22 +73,29 @@
     },
     {
         "id": 8,
+        "galeryImg": "baliImg",
         "province": "Kalimantan Selatan"
     },
     {
         "id": 9,
+        "galeryImg": "baliImg",
         "province": "Sulawesi Selatan"
     },
     {
         "id": 10,
+        "galeryImg": "baliImg",
         "province": "Sumatera Barat"
     },
     {
         "id": 11,
+        "galeryImg": "baliImg",
         "province": "Nusa Tenggara Timur"
     },
     {
         "id": 12,
+        "galeryImg": "baliImg",
         "province": "Papua Barat"
     }
 ]
+
+export default galery;

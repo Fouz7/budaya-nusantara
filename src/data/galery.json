@@ -1,0 +1,97 @@
+[
+    {
+        "id": 1,
+        "galeryImg": "bali.png",
+        "province": "DKI Jakarta",
+        "sejarahText1":"Kota Jakarta memiliki sejarah yang panjang dan beragam.",
+        "sejarahText2":"Sunda Kelapa (397-1527): Jakarta pertama kali dikenal sebagai salah satu pelabuhan Kerajaan Sunda yang bernama Sunda Kalapa, berlokasi di muara Sungai Ciliwung. Pada masa kekuasaan Kerajaan Tarumanegara, wilayah ini dikenal dengan nama Sunda Kelapa dan menjadi pusat perdagangan.",
+        "sejarahText3":"Jayakarta (1527-1619): Pada tahun 1527, Jayakarta didirikan oleh Fatahillah, seorang panglima dari Kesultanan Demak. Jayakarta menjadi pusat perdagangan yang penting di Asia Tenggara.",
+        "sejarahText4":"Batavia (1619-1942): Pada tahun 1619, VOC (Vereenigde Oost-Indische Compagnie) mendirikan Batavia sebagai pusat administrasi dan perdagangan di Hindia Belanda. Batavia menjadi pusat kekuasaan kolonial Belanda di Indonesia.",
+        "sejarahText5":"Jakarta (1942-sekarang): Pada tahun 1942, Jepang menduduki Batavia dan mengganti namanya menjadi Jakarta. Setelah kemerdekaan Indonesia pada tahun 1945, Jakarta menjadi ibu kota negara Indonesia."
+    },
+    {
+        "id": 2,
+        "galeryImg": "assets/bali.png",
+        "province": "Aceh",
+        "sejarahText1": "Aceh, yang dulu dikenal sebagai Aceh Darussalam (1511-1945), memiliki sejarah yang dimulai dari masa kejayaan kerajaan Aceh Darussalam yang berdiri pada abad ke-16",
+        "sejarahText2":"Aceh merupakan tempat awal masuknya ajaran Islam di Indonesia, dengan Kerajaan Samudera Pasai sebagai kerajaan Islam pertama di Indonesia yang berdiri pada pertengahan abad ke-12",
+        "sejarahText3":"Kesultanan Aceh Darussalam didirikan pada abad ke-17 dan mempersatukan kerajaan-kerajaan kecil di wilayah tersebut",
+        "sejarahText4":"Pada masa kejayaannya, Aceh menjadi salah satu pusat perdagangan rempah-rempah di Asia Tenggara",
+        "sejarahText5":"Pada abad ke-18, Aceh menghadapi masa perlawanan terhadap kolonial dengan perjuangan melawan Portugis, Inggris, Belanda, hingga Jepang. Tokoh-tokoh seperti Teuku Umar dan Cut Nyak Dhien menjadi simbol kegigihan rakyat Aceh melawan penjajah",
+        "sejarahText6":"Setelah Indonesia merdeka pada tahun 1945, Aceh menjadi bagian dari negara Republik Indonesia sebagai sebuah karesidenan dari Provinsi Sumatera",
+        "sejarahText7":"Pada tahun 1956, Aceh ditingkatkan statusnya menjadi Provinsi Aceh dan kemudian menjadi Daerah Istimewa Aceh",
+        "sejarahText8":"Aceh memiliki status otonomi khusus, dengan penerapan syariat Islam sebagai salah satu ciri khasnya2.Provinsi ini dibentuk pada 1956 dengan nama Aceh sebelum diubah menjadi Daerah Istimewa Aceh (1959-2001), Nanggroe Aceh Darussalam (2001-2009), dan kembali ke Aceh sejak 2009"
+    },
+    {
+        "id": 3,
+        "galeryImg": "assets/bali.png",
+        "province": "Jawa Barat",
+        "sejarahText1":"",
+        "sejarahText2":"",
+        "sejarahText3":"",
+        "sejarahText4":"",
+        "sejarahText5":"",
+        "sejarahText6":"",
+        "sejarahText7":""
+    },
+    {
+        "id": 4,
+        "galeryImg": "assets/bali.png",
+        "province": "Jawa Tengah",
+        "sejarahText1":"",
+        "sejarahText2":"",
+        "sejarahText3":"",
+        "sejarahText4":"",
+        "sejarahText5":"",
+        "sejarahText6":"",
+        "sejarahText7":""
+    },
+    {
+        "id": 5,
+        "galeryImg": "assets/bali.png",
+        "province": "Jawa Timur"
+    },
+    {
+        "id": 6,
+        "galeryImg": "assets/bali.png",
+        "province": "DI Jogjakarta"
+    },
+    {
+        "id": 7,
+        "galeryImg": "assets/bali.png",
+        "province": "Bali",
+        "sejarahText1":"Bali, yang dikenal sebagai Pulau Dewata, memiliki sejarah yang kaya dan beragam. Pulau ini terbentuk dari aktivitas vulkanik dan merupakan bagian dari kepulauan Indonesia. Sejarah Bali dimulai dari masa prasejarah, ketika pulau ini masih terhubung dengan pulau Jawa sebagai bagian dari paparan Sunda.",
+        "sejarahText2":"Pada masa Paleolitik dan Mesolitik, Bali dihuni oleh bangsa Austronesia yang bermigrasi dari Taiwan melalui Asia Tenggara Maritim. Alat-alat batu dari zaman tersebut telah ditemukan di dekat desa Cekik di Bali Barat.",
+        "sejarahText3":"Bali sangat dipengaruhi oleh budaya India, Tiongkok, dan khususnya Hindu, yang mulai masuk sekitar abad pertama Masehi. Nama “Bali Dwipa” telah ditemukan dalam berbagai prasasti, termasuk prasasti Blanjong yang ditulis oleh Sri Kesari Warmadewa pada tahun 914 Masehi.",
+        "sejarahText4":"Pada abad ke-14, kerajaan Hindu Majapahit mendirikan koloni di Bali. Setelah kejatuhan Majapahit, terjadi eksodus besar-besaran dari intelektual, seniman, pendeta, dan musisi dari Jawa ke Bali. Ini membawa dampak besar pada budaya dan seni di Bali.",
+        "sejarahText5":"Era kolonial dimulai ketika bangsa Eropa pertama kali tiba di Bali pada tahun 1585, dan kemudian pada tahun 1597 penjelajah Belanda Cornelis de Houtman mencapai Bali. Pada tahun 1840-an, Belanda mulai memperluas kontrol politik dan ekonomi mereka atas Bali, yang berlanjut hingga awal abad ke-202.",
+        "sejarahText6":"Setelah Indonesia memproklamasikan kemerdekaannya pada tahun 1945, Bali menjadi bagian dari negara yang baru merdeka tersebut. Pada tahun 1958, Bali memisahkan diri dari Provinsi Sunda Kecil dan menjadi provinsi yang mandiri.",
+        "sejarahText7": "Sekarang, Bali dikenal di seluruh dunia sebagai tujuan wisata dengan seni dan kebudayaannya yang unik, pemandangan alam yang indah, dan sebagai pusat spiritualitas dan kebudayaan Hindu",
+        "SejarahImage1": "./src"
+    },
+    {
+        "id": 8,
+        "galeryImg": "assets/bali.png",
+        "province": "Kalimantan Selatan"
+    },
+    {
+        "id": 9,
+        "galeryImg": "assets/bali.png",
+        "province": "Sulawesi Selatan"
+    },
+    {
+        "id": 10,
+        "galeryImg": "assets/bali.png",
+        "province": "Sumatera Barat"
+    },
+    {
+        "id": 11,
+        "galeryImg": "assets/bali.png",
+        "province": "Nusa Tenggara Timur"
+    },
+    {
+        "id": 12,
+        "galeryImg": "assets/bali.png",
+        "province": "Papua Barat"
+    }
+]
