@@ -1,4 +1,7 @@
 import baliImg from '../assets/bali.png';
+import sejarahSulsel from '../assets/sejarahSulsel.jpg'
+import bajusulsel1 from '../assets/bajusulsel1.jpg'
+import bajusulsel2 from '../assets/bajusulsel2.jpg'
 
 const galery = [
     {
@@ -79,7 +82,21 @@ const galery = [
     {
         "id": 9,
         "galeryImg": "baliImg",
-        "province": "Sulawesi Selatan"
+        "province": "Sulawesi Selatan",
+        "sejarahText1":"Sekitar 30.000 tahun silam pulau ini telah dihuni oleh manusia. Penemuan tertua ditemukan di gua-gua dekat bukit kapur dekat Maros, sekitar 30 km sebelah timur laut dan Makassar sebagai ibukota Propinsi Sulawesi Selatan.",
+        "sejarahText2":"Selama masa keemasan perdagangan rempah-rempah, diabad ke-15 sampai ke-19, Sulawesi Selatan berperan sebagai pintu Gerbang ke kepulauan Maluku, tanah penghasil rempah. ",
+        "sejarahText3":"Ada tiga kerajaan besar yang berpengaruh luas yaitu Luwu, Gowa dan Bone, yang pada abad ke XVI dan XVII mencapai kejayaannya dan telah melakukan hubungan dagang serta persahabatan dengan bangsa Eropa, India, Cina, Melayu dan Arab.",
+        "sejarahText4":"Setelah kemerdekaan, dikeluarkan UU Nomor 21 Tahun 1950 dimana Sulawesi Selatan menjadi propinsi Administratif Sulawesi dan selanjutnya pada tahun 1960 menjadi daerah otonom Sulawesi Selatan dan Tenggara berdasarkan UU Nomor 47 Tahun 1960.",
+        "sejarahText5":"Dengan undang-undang ini maka Wilayah Administratif Sulsel terbagi menjadi 21 daerah swantantra tingkat II dan 2 (dua) kotapraja yakni Makassar dan Parepare.",
+        "sejarahText6":"Selanjutnya Propinsi daerah Tingkat I Sulawesi Selatan terbagi dalam 23 Kabupaten/Kotamadya serta 2 (dua) Kota Administratif yakni Palopo di Kabupaten Luwu dan Watampone di kabupaten Bone.Sedangkan yang sangat berarti adalah perubahan nama ibukota Propinsi sulawesi Selatan dari makassar ke Ujung Pandang yang ditetapkan dalam PP Nomor 51 tahun 1971 Lembaran negara Republik Indonesia Nomor 65 tahun 1971. ",
+        "sejarahImage1":sejarahSulsel,
+        "pakaianText1":"Baju Bodo merupakan salah satu pakaian adat Sulawesi Selatan. Yang mana lebih tepatnya baju Bodo adalah pakaian adat asli suku bugis. Baju Bodo juga masuk ke dalam deretan pakaian adat tertua yang ada di dunia. Baju Bodo adalah baju adat yang secara khusus dibuat untuk dikenakan oleh para wanita yang mana dilihat dari desainnya, baju Bodo memiliki bentuk yang cukup unik. Keunikan tersebut terletak dari bentuk seperti segi empat yang dipadupadankan dengan lengan pendek.",
+        "PakaianImage1":bajusulsel1,
+        "pakaianText2":"Baju Tutu dibuat khusus untuk dikenakan oleh kaum laki-laki. Pakaian adat Sulawesi Selatan ini adalah berupa jas. Ketika dikenakan, baju Tutu akan dipadupadankan dengan penggunaan baju bella dada. Selain itu penggunaan baju Tutu juga akan dikenakan bersama dengan penggunaan celana serta sarung maupun lipa garusuk. Baju Bodo dan baju tutu suku Bugis dahulunya hanya dikenakan dalam berbagai macam upacara penting seperti pernikahan.",
+        "PakaianImage2":bajusulsel2,
+        
+
+    
     },
     {
         "id": 10,
