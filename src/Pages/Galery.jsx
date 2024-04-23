@@ -1,4 +1,3 @@
-import React from 'react';
 import galery from '../data/galery';
 import GaleryCardComp from '../Components/GaleryCardComp';
 

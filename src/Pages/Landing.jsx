@@ -1,4 +1,3 @@
-import React from 'react'
 import HeaderComp from '../Components/HeaderComp'
 
 function Landing() {
