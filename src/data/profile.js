@@ -5,7 +5,7 @@ const profile = [
     {
         "id": 1,
         "picture": irfan,
-        "nama": "irpansah pati nasarani",
+        "nama": "irpansah",
         "instagram": "https://www.instagram.com/irfansyah_679?igsh=dWEza2xnaGM0NGh0",
         "email":"irpansahpatiansarani@gmail.com",
         "linked":""
@@ -21,7 +21,7 @@ const profile = [
     {
         "id": 3,
         "picture": "",
-        "nama": "M Dhiki Trilaksono F",
+        "nama": "Fauzan",
         "instagram": "",
         "email":"",
         "linked":""
