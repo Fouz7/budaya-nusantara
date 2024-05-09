@@ -36,7 +36,7 @@ function HeaderComp() {
                 color="blue-gray"
                 className="p-1 font-normal text-right md:text-left"
             >
-                <a href="#" className="flex items-center">
+                <a className="flex items-center" onClick={() => navigate('/about-us')}>
                     About Us
                 </a>
             </Typography>
