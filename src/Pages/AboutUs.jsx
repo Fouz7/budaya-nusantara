@@ -2,6 +2,7 @@ import React from 'react'
 import ProfileCard from '../Components/ProfileCard'
 import HeaderComp from '../Components/HeaderComp'
 import profile from '../data/profile'
+import AboutUsComp from '../Components/AboutUsComp'
 
 function AboutUs() {
 
@@ -10,18 +11,7 @@ function AboutUs() {
   return (
     <div>
         <HeaderComp/>
-        <div className='mt-32 flex justify-evenly'>
-          {profile2.map((profile, index) => (
-            <ProfileCard 
-              key={index} 
-              pic={profile.picture} 
-              email={profile.email} 
-              name={profile.nama} 
-              ig={profile.instagram} 
-              linked={profile.linked} 
-            />
-          ))}
-        </div>
+        <AboutUsComp/>
     </div>
   )
 }
