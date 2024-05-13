@@ -1,4 +1,6 @@
 import {useState} from "react";
+import { useParams } from 'react-router-dom';
+import galery from '../data/galery';
 import HeaderComp from "../Components/HeaderComp.jsx";
 import imgHeader from '../assets/baliHeader.png'
 import {
@@ -12,14 +14,15 @@ import {
 
 
 function ProvinceDetail() {
+    const {name} = useParams();
+    const provinceData = galery.find((province) => province.province === name);
+
     const [activeTab, setActiveTab] = useState("sejarah")
     const data = [
         {
             label: "Sejarah",
             value: "sejarah",
-            desc: `It really matters and then like it really doesn't matter.
-      What matters is the people who are sparked by it. And the people 
-      who are like offended by it, it doesn't matter.`,
+            desc: provinceData.sejarahText1,
         },
         {
             label: "Budaya",
@@ -42,19 +45,22 @@ function ProvinceDetail() {
         }
     ];
 
+
+
     return (
         <>
             <HeaderComp/>
             <figure className="relative">
                 <img
-                    src={imgHeader}
+                    className="w-full h-96 object-cover"
+                    src={provinceData.headerImg ? provinceData.headerImg : imgHeader}
                     alt="imgHeader"
                 />
                 <Typography
                     variant="h1"
-                    className="absolute -bottom-6 right-0 transform -translate-x-1/2 -translate-y-1/2 text-7xl text-white"
+                    className="absolute -bottom-6 right-3 transform  -translate-y-1/2 text-7xl text-white"
                 >
-                    Bali
+                    {provinceData.province}
                 </Typography>
             </figure>
             <Tabs value={activeTab} className="mx-36">
@@ -77,7 +83,7 @@ function ProvinceDetail() {
                     ))}
                 </TabsHeader>
                 <TabsBody
-                    className="bg-detail flex flex-col justify-center rounded"
+                    className="bg-detail flex flex-col justify-center rounded mb-3"
                 >
                     {data.map(({ value, desc }) => (
                         <TabPanel key={value} value={value}>
