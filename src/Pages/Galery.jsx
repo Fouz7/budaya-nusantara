@@ -1,5 +1,6 @@
 import galery from '../data/galery';
 import GaleryCardComp from '../Components/GaleryCardComp';
+import HeaderComp from "../Components/HeaderComp.jsx";
 
 
 const Galery = () => {
@@ -8,11 +9,12 @@ const Galery = () => {
 
   return (
     <>
-    <div className="grid grid-cols-4 gap-4">
-      {galeryPlace.map((place, index) => (
-        <GaleryCardComp key={index} image={place.galeryImg} label={place.province} />
-      ))}
-    </div>
+      <HeaderComp/>
+      <div className="grid grid-cols-4 gap-4 justify-items-center p-8">
+        {galeryPlace.map((place, index) => (
+          <GaleryCardComp key={index} image={place.galeryImg} label={place.province} />
+        ))}
+      </div>
     </>
   );
 };

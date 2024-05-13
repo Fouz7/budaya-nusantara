@@ -26,7 +26,7 @@ function HeaderComp() {
                 color="blue-gray"
                 className="p-1 font-normal text-right md:text-left"
             >
-                <a className="flex items-center" onClick={() => navigate('/galery')}>
+                <a className="flex items-center cursor-pointer" onClick={() => navigate('/gallery')}>
                     Galery
                 </a>
             </Typography>
@@ -36,7 +36,7 @@ function HeaderComp() {
                 color="blue-gray"
                 className="p-1 font-normal text-right md:text-left"
             >
-                <a className="flex items-center" onClick={() => navigate('/about-us')}>
+                <a className="flex items-center cursor-pointer" onClick={() => navigate('/about-us')}>
                     About Us
                 </a>
             </Typography>
@@ -46,7 +46,7 @@ function HeaderComp() {
                 color="blue-gray"
                 className="p-1 font-normal text-right md:text-left"
             >
-                <a href="#" className="flex items-center">
+                <a className="flex items-center cursor-pointer" >
                     Contact
                 </a>
             </Typography>
@@ -55,19 +55,15 @@ function HeaderComp() {
 
     return (
         <div className="w-full">
-            <Navbar className="border-none fixed top-0 z-50 bg-white lg:bg-transparent lg:bg-opacity-50 h-max max-w-full rounded-none px-4 py-2 lg:px-8 lg:py-4 shadow-none">
+            <Navbar className="border-none sticky top-0 z-50 bg-white lg:bg-navbar-dark lg:bg-opacity-50 h-max max-w-full rounded-none px-4 py-2 lg:px-8 lg:py-4 shadow-none">
                 <div className="flex items-center justify-between text-blue-gray-900">
-                <div className="flex">
+                <div className="flex" onClick={() => navigate('/')}>
                     <Typography
-                        as="a"
-                        href="#"
                         className=" mr-1 cursor-pointer py-1.5 font-medium text-red-500"
                     >
                         Budaya
                     </Typography>
                     <Typography
-                        as="a"
-                        href="#"
                         className="cursor-pointer py-1.5 font-medium text-white"
                     >
                         Nusantara
