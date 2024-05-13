@@ -92,7 +92,7 @@ const galery = [
     {
         "id": 9,
         "galeryImg": "https://onedrive.live.com/embed?resid=30CE3FEB3451B567%2117483&authkey=%21AF7fK9djyqkzcAw&width=1280&height=851",
-        "headerImg":"",
+        "headerImg":"https://onedrive.live.com/embed?resid=30CE3FEB3451B567%2117517&authkey=%21AOkwKr3FSvDLkcI&width=1200&height=677",
         "province": "Sulawesi Selatan",
         "sejarahText1":"Sekitar 30.000 tahun silam pulau ini telah dihuni oleh manusia. Penemuan tertua ditemukan di gua-gua dekat bukit kapur dekat Maros, sekitar 30 km sebelah timur laut dan Makassar sebagai ibukota Propinsi Sulawesi Selatan.",
         "sejarahText2":"Selama masa keemasan perdagangan rempah-rempah, diabad ke-15 sampai ke-19, Sulawesi Selatan berperan sebagai pintu Gerbang ke kepulauan Maluku, tanah penghasil rempah. ",
@@ -109,7 +109,7 @@ const galery = [
     {
         "id": 10,
         "galeryImg": "https://onedrive.live.com/embed?resid=30CE3FEB3451B567%2117484&authkey=%21AEuVslHt-CMyIho&width=1280&height=854",
-        "headerImg":"",
+        "headerImg":"https://onedrive.live.com/embed?resid=30CE3FEB3451B567%2117513&authkey=%21AOsidkro1garGz4&width=1000&height=667",
         "province": "Sumatera Barat",
         "sejarahText1":"Di pelosok Maek, Kabupaten Lima Puluh Kota banyak ditemukan peninggalan kebudayaan megalitikum. Bukti arkeologis yang ditemukan di atas bisa memberi indikasi bahwa daerah Lima Puluh Kota dan sekitarnya merupakan daerah pertama yang dihuni oleh nenek moyang orang Minangkabau. Penafsiran ini beralasan, karena di daerah ini mengalir beberapa sungai besar yang bermuara di pantai timur pulau Sumatra. Sungai-sungai ini dapat dilayari dan memang menjadi sarana transportasi yang penting dari zaman dahulu hingga akhir abad yang lalu.",
         "sejarahText2":"Nenek moyang orang Minangkabau diduga datang melalui rute ini. Mereka berlayar dari daratan Asia mengarungi Laut Cina Selatan, menyeberangi Selat Malaka dan kemudian melayari sungai kampar, sungai siak, dan sungai inderagiri. Setelah melakukan perjalanan panjang, mereka tinggal dan mengembangkan kebudayaan serta per­adaban di wilayah Luhak Nan Tigo (daerah Lima Puluh Kota, Agam, dan Tanah Datar) sekarang",
@@ -118,7 +118,7 @@ const galery = [
     {
         "id": 11,
         "galeryImg": "https://onedrive.live.com/embed?resid=30CE3FEB3451B567%2117485&authkey=%21ADhz-zSjWVDn-is&width=750&height=500",
-        "headerImg":"",
+        "headerImg":"https://onedrive.live.com/embed?resid=30CE3FEB3451B567%2117514&authkey=%21AAiz5LDj4X8avnA&width=626&height=352",
         "province": "Nusa Tenggara Timur",
         "sejarahText1":"Nusa Tenggara Timur (disingkat NTT) adalah sebuah provinsi di Indonesia yang meliputi bagian timur Kepulauan Nusa Tenggara. Provinsi ini memiliki ibu kota di Kota Kupang dan memiliki 22 kabupaten/kota. Provinsi ini berada di Kepulauan Sunda Kecil.[7][8] Tahun 2022, penduduk provinsi ini berjumlah 5.446.285 jiwa, dengan kepadatan 114 jiwa/km2.[2",
         "sejarahText2":"Setelah pemekaran, Nusa Tenggara Timur adalah sebuah provinsi Indonesia yang terletak di bagian tenggara Indonesia. Provinsi ini terdiri dari beberapa pulau, antara lain pulau Flores, pulau Sumba, pulau Timor, pulau Alor, pulau Lembata, pulau Rote, pulau Sabu, pulau Adonara, pulau Solor, pulau Ende, pulau Komodo dan pulau Palue.[9]",
@@ -127,7 +127,7 @@ const galery = [
     {
         "id": 12,
         "galeryImg": "https://onedrive.live.com/embed?resid=30CE3FEB3451B567%2117486&authkey=%21AKvGEYjy1mRgZL8&width=700&height=393",
-        "headerImg":"",
+        "headerImg":"https://onedrive.live.com/embed?resid=30CE3FEB3451B567%2117514&authkey=%21AAiz5LDj4X8avnA&width=626&height=352",
         "province": "Papua Barat",
         "sejarahText1":"Papua Barat (disingkat Pabar; dahulu Irian Jaya Barat) adalah sebuah provinsi Indonesia yang terletak di barat laut Provinsi Papua Tengah dan sebelah timur Provinsi Papua Barat Daya. Wilayah Papua Barat mencakup Semenanjung Doberai, Semenanjung Bomberai, dan Wandamen. Ibu kota provinsi ini terletak di Manokwari. Provinsi ini dimekarkan dari Provinsi Papua melalui Undang-Undang Nomor 45 Tahun 1999",
         "sejarahText2":"Pada awalnya pembentukan provinsi ini mendapatkan penolakan dari masyarakat sehingga implementasi dari pemekaran ini baru dilaksanakan melalui Instruksi Presiden Nomor 1 Tahun 2003.[6][7] Walaupun pada 11 November 2004 Mahkamah Konstitusi menyatakan bahwa dasar hukum pembentukan Provinsi Irian Jaya Barat sudah tidak memiliki kekuatan hukum yang mengikat, namun keberadaan provinsi ini dinyatakan tetap sah.[8]",
