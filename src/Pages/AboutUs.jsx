@@ -10,18 +10,8 @@ function AboutUs() {
   return (
     <div>
         <HeaderComp/>
-        <div className='mt-32 flex justify-evenly'>
-          {profile2.map((profile, index) => (
-            <ProfileCard 
-              key={index} 
-              pic={profile.picture} 
-              email={profile.email} 
-              name={profile.nama} 
-              ig={profile.instagram} 
-              linked={profile.linked} 
-            />
-          ))}
-        </div>
+
+
     </div>
   )
 }
