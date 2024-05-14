@@ -1,4 +1,3 @@
-import garudaImg from '../assets/garuda.png';
 import {Typography} from "@material-tailwind/react";
 import text from '../data/text';
 
@@ -12,7 +11,7 @@ function LandingPageMiddleContent (){
         <>
             <div className='flex justify-center mt-14'>
                     <img
-                        src={garudaImg}
+                        src='https://onedrive.live.com/embed?resid=30CE3FEB3451B567%2117534&authkey=%21AMRWdOFydvgRYR4&width=494&height=505'
                         alt="Garuda Image"
                         className="w-64 h-64"
                     />
