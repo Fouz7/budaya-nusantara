@@ -7,6 +7,9 @@ export default withMT({
       backgroundColor: {
         'navbar-dark': 'rgba(0, 0, 0, 0.4)',
         'detail': '#D5D8D0'
+      },
+      height: {
+        '102': '28rem',
       }
     },
   },

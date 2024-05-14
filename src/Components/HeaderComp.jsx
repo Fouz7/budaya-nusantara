@@ -1,7 +1,6 @@
 import React, { useState } from "react"; 
 import { useNavigate } from "react-router-dom";
 import {
-    Navbar,
     Typography,
     IconButton,
     Collapse,
@@ -24,7 +23,7 @@ function HeaderComp() {
                 as="li"
                 variant="small"
                 color="blue-gray"
-                className="p-1 font-normal text-right md:text-left"
+                className="p-1 font-normal text-right text-white md:text-left"
             >
                 <a className="flex items-center cursor-pointer" onClick={() => navigate('/gallery')}>
                     Galery
@@ -34,7 +33,7 @@ function HeaderComp() {
                 as="li"
                 variant="small"
                 color="blue-gray"
-                className="p-1 font-normal text-right md:text-left"
+                className="p-1 font-normal text-right text-white md:text-left"
             >
                 <a className="flex items-center cursor-pointer" onClick={() => navigate('/about-us')}>
                     About Us
@@ -44,7 +43,7 @@ function HeaderComp() {
                 as="li"
                 variant="small"
                 color="blue-gray"
-                className="p-1 font-normal text-right md:text-left"
+                className="p-1 font-normal text-right text-white md:text-left"
             >
                 <a className="flex items-center cursor-pointer" >
                     Contact
@@ -55,20 +54,20 @@ function HeaderComp() {
 
     return (
         <div className="w-full">
-            <Navbar className="border-none sticky top-0 z-50 bg-white lg:bg-navbar-dark lg:bg-opacity-50 h-max max-w-full rounded-none px-4 py-2 lg:px-8 lg:py-4 shadow-none">
+            <div className="border-0 fixed top-0 z-50 bg-black/10 w-full px-4 py-2 lg:px-8 lg:py-4 ">
                 <div className="flex items-center justify-between text-blue-gray-900">
-                <div className="flex" onClick={() => navigate('/')}>
-                    <Typography
-                        className=" mr-1 cursor-pointer py-1.5 font-medium text-red-500"
-                    >
-                        Budaya
-                    </Typography>
-                    <Typography
-                        className="cursor-pointer py-1.5 font-medium text-white"
-                    >
-                        Nusantara
-                    </Typography>
-                </div>
+                    <div className="flex cursor-pointer" onClick={() => navigate('/')}>
+                        <Typography
+                            className="mr-1 py-1.5 font-medium text-red-500"
+                        >
+                            Budaya
+                        </Typography>
+                        <Typography
+                            className="py-1.5 font-medium text-white"
+                        >
+                            Nusantara
+                        </Typography>
+                    </div>
                     <div className="flex items-center gap-4">
                         <div className="mr-4 hidden lg:block">{navList}</div>
                         <IconButton
@@ -111,7 +110,7 @@ function HeaderComp() {
                     </div>
                 </div>
                 <Collapse open={openNav} className="absolute bg-blue-gray-300 w-full -mx-4 lg:-mx-8">{navList}</Collapse>
-            </Navbar>
+            </div>
         </div>
     );
 }

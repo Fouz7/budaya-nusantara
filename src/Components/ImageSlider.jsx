@@ -22,12 +22,12 @@ function ImageSlider() {
                         key={index}
                         src={item.headerImg}
                         alt={item.province}
-                        className="w-full h-96 object-cover"
+                        className="w-full h-102 object-cover"
                     />
                     <Typography
                         variant="h6"
                         color="blue-gray"
-                        className="absolute whitespace-nowrap shadow-2xl drop-shadow-2xl top-0 left-0 transform text-white p-2"
+                        className="absolute whitespace-nowrap shadow-2xl drop-shadow-2xl bottom-0 right-3 transform text-white p-2"
                     >
                         {item.province}
                     </Typography>
