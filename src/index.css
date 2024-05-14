@@ -23,3 +23,9 @@
   border-bottom-right-radius: 24px;
   border-bottom-left-radius: 0;
 }
+.contact-radius {
+  border-top-left-radius: 30px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 30px;
+  border-bottom-left-radius: 0;
+}

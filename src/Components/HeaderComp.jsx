@@ -45,7 +45,7 @@ function HeaderComp() {
                 color="blue-gray"
                 className="p-1 font-normal text-right text-white md:text-left"
             >
-                <a className="flex items-center cursor-pointer" >
+                <a className="flex items-center cursor-pointer" onClick={() => navigate('/contact')} >
                     Contact
                 </a>
             </Typography>
